@@ -1,0 +1,74 @@
+.donation-container{
+    width: 50%;
+    margin: auto
+}
+.donation-value{
+    background-color: rgb(63, 61, 61);
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+}
+.donation-value p{
+   text-align: center;
+   font-size: 30px;;
+}
+.donation-value p span{
+    font-weight: bolder;
+    font-size: 35px;
+ }
+
+ .donation-description{
+    border: 1px solid rgb(222, 221, 221);
+    box-shadow: 0px 7px 5px rgb(222, 221, 221);
+    padding: 40px;
+    margin: 20px 0;
+ }
+
+ .donation-description p{
+    color: rgb(140, 135, 135);
+    font-size: 30px;
+
+ }
+ .donation-description p span{
+    color: rgb(232, 78, 7);
+    font-weight: bold;
+ }
+.donation-input{
+    display: flex;
+    gap: 30px;
+}
+ .donation-input input{
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-size: 35px;
+    width: 40%;
+ }
+ .donation-input button{
+    padding: 20px;
+    width: 40%;
+    color: white;
+    background: #05c105;
+    border: none;
+    border-radius: 8px;
+    font-size: 35px;
+ }
+ .donation-description .donation-question{
+    font-style: italic;
+    color: rgb(0, 157, 255);
+    font-size: 25px;
+ }
+.donation-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+ .donation-buttons button{
+    padding: 20px;
+    width: 48%;
+    background: #f1ecec94;
+    border: 1px solid #a2a0a0;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #a2a0a0;
+ }
